@@ -1,0 +1,563 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/poppins/v20/pxiEyp8kv8JHgFVrJJbecmNE.woff2) format('woff2');
+    unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+
+}
+
+* {
+    font-family: 'Serif', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    height: 100px;
+    width: 100%;
+    background: white;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px 0 100px;
+    flex-wrap: wrap;
+    box-shadow: 0px 10px 21px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: inset 1px -50px 249px -21px #ffffff;
+    box-shadow: inset 1px -50px 249px -21px #789;
+}
+
+.geo {
+    max-width: 30px;
+    height: auto;
+    opacity: 60%;
+    transition: ease-in 0.3s;
+    position: relative;
+    left: 30px;
+    top: 5px;
+}
+
+    .geo:hover {
+        background: white;
+        opacity: 100%
+    }
+
+nav .logo {
+    max-width: 400px;
+    transition: ease-out 0.4s;
+    position: relative;
+    left: 100px;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+    nav ul li {
+        margin: 0 5px;
+    }
+
+        nav ul li a {
+            color: #151b5e;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: 500;
+            padding: 8px 15px;
+            border-radius: 5px;
+            letter-spacing: 1px;
+            transition: all 0.3s ease;
+        }
+
+            nav ul li a.active,
+            nav ul li a:hover {
+                color: white;
+                background: navy;
+            }
+
+nav .menu-btn i {
+    color: #151b5e;
+    font-size: 27px;
+    cursor: pointer;
+    display: none;
+    position: absolute;
+    right: 5%;
+    top: 5%;
+    transition: ease-in 0.3s;
+}
+
+    nav .menu-btn i:hover {
+        color: grey;
+    }
+
+input[type="checkbox"] {
+    display: none;
+}
+
+@media (max-width: 1000px) {
+    nav {
+        padding: 0 40px 0 50px;
+    }
+}
+
+@media (max-width: 920px) {
+    nav .menu-btn i {
+        display: block;
+        background: white;
+    }
+
+    #click:checked ~ .menu-btn i:before {
+        content: "\f00d";
+    }
+
+    .logo {
+        position: absolute;
+        left: 20px;
+        top: 5px;
+        width: 300px;
+        height: auto;
+    }
+
+    nav ul {
+        position: fixed;
+        top: 80px;
+        left: -100%;
+        background: #111;
+        height: 100vh;
+        width: 100%;
+        text-align: center;
+        display: block;
+        transition: all 0.3s ease;
+    }
+
+    #click:checked ~ ul {
+        left: 0;
+    }
+
+    nav ul li {
+        width: 100%;
+        margin: 40px 0;
+    }
+
+        nav ul li a {
+            width: 100%;
+            margin-left: -100%;
+            display: block;
+            font-size: 20px;
+            transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+        }
+
+    #click:checked ~ ul li a {
+        margin-left: 0px;
+    }
+
+    nav ul li a.active,
+    nav ul li a:hover {
+        background: none;
+        color: cyan;
+    }
+}
+.foni{
+  position:absolute;
+  left:23.5%;
+  top:18%;
+  width:51%;
+  height:18%; 
+  background-color:#808080;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+}
+.foto1{
+   
+    width:12%;
+    position:absolute;
+    top:18%;
+    left:36%;
+    
+}
+.foto2{
+    width:12%;
+    position:absolute;
+    top:18%;
+    left:49%;
+}
+.foto3{
+   ;
+    width:12%;
+    position:absolute;
+    top:18%;
+    left:62%;
+}
+.satauri{
+  
+  position:absolute;
+  top:20%;
+  left:24%;
+  color:white;
+  font-size:20px;
+  max-width:20px;
+}
+.satauri1{
+   font-family:"Verdana", sans-serif;
+   position:absolute;
+   top:380px;
+   left:41%;
+   
+   color:black;
+   font-size:23px;
+   border-bottom: 3px solid blue;
+padding-bottom: 7px;
+max-width:209%;
+text-decoration: none;
+ }
+.card {
+  user-select: none;
+   position: absolute;
+   top: 550px;
+   right: 10%;
+ cursor: pointer;
+ width: 490px;
+ height: 300px;
+ background: transparent;
+ border-radius: 5px ;
+ 
+
+ transition: all .2s;
+ 
+}
+
+.card:hover {
+ box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.opt1{
+   width: 100%;
+   height: 100px;
+   border: 0.5px solid grey;
+   cursor: pointer;
+   font-size: 20px;
+   background-color: white;
+
+}
+.opt2{
+   width: 100%;
+   height: 100px;
+   border: 0.5px solid grey;
+cursor: pointer;
+font-size: 20px;
+background-color: white;
+}
+.opt3{
+   width: 100%;
+   height: 100px;
+   border: 0.5px solid grey;
+cursor: pointer;
+font-size: 20px;
+background-color: white;
+}
+
+
+.opt4{
+   width: 100%;
+   height: 100px;
+   border: 0.5px solid grey;
+cursor: pointer;
+font-size: 20px;
+background-color: white;
+}
+.button.hover{
+   cursor: pointer;
+}
+.opt1:hover{
+   transition-duration:0.8s ;
+opacity: 95%;
+background-color: grey;
+}
+.opt2:hover{
+   transition-duration:0.8s ;
+opacity: 95%;
+background-color: grey;
+}
+.opt3:hover{
+   transition-duration:0.8s ;
+opacity: 95%;
+background-color: grey;
+}
+.opt4:hover{
+   transition-duration:0.8s ;
+opacity: 95%;
+background-color: grey;
+}
+.sat1{
+  text-decoration: underline;
+ position: absolute;
+   top: 520px;
+   left: 100px;
+   font-size: 22px;
+}
+.tex1{
+  color: black;
+ position: absolute;
+ max-width: 600px;
+   top: 600px;
+   left: 100px;
+   font-size: 22px;
+}
+.sat2{
+  text-decoration: underline;
+  position: absolute;
+   top: 1020px;
+   left: 100px;
+   font-size: 22px;
+}
+.tex2{
+    color: black;
+ position: absolute;
+ max-width: 600px;
+   top: 1100px;
+   left: 100px;
+   font-size: 22px;
+}
+.sat3{
+  text-decoration: underline;
+  position: absolute;
+   top: 1620px;
+   left: 100px;
+   font-size: 22px;
+}
+.tex3{
+    color: black;
+ position: absolute;
+ max-width: 600px;
+   top: 1700px;
+   left: 100px;
+   font-size: 22px;
+}
+.back2{
+    position:absolute;
+    left: 0px;
+  top: 2040px; 
+  background-color: #696969;
+  z-index: 30;
+  width: 100%;
+  height: 60px;
+  z-index: 100;
+
+  }
+  .fblogo{
+  position: absolute;
+  right: 48%;
+  top: 2050px;
+  width: 40px;
+  z-index: 45;
+  opacity: 60%;z-index: 102;
+}
+.gmaillogo{
+  position: absolute;
+  right: 52%;
+  top: 2050px;
+  width: 40px;
+  z-index: 45;
+  opacity: 60%;
+  z-index: 102;
+}
+.fblogo.active,
+.fblogo:hover {
+cursor: pointer;
+  opacity: 100%;
+  }
+  .gmaillogo.active,
+.gmaillogo:hover {
+  opacity: 100%;
+  cursor: pointer;
+}
+.back2{
+    position:absolute;
+  top: 2040px; 
+  background-color: #696969;
+  z-index: 30;
+  width: 100%;
+  height: 60px;
+  z-index: 100;
+  left: 0px;
+
+  }
+  .fblogo{
+  position: absolute;
+  right: 48%;
+  top: 2050px;
+  width: 40px;
+  z-index: 45;
+  opacity: 60%;z-index: 102;
+}
+.gmaillogo{
+  position: absolute;
+  right: 52%;
+  top: 2050px;
+  width: 40px;
+  z-index: 45;
+  opacity: 60%;
+  z-index: 102;
+}
+.fblogo.active,
+.fblogo:hover {
+cursor: pointer;
+  opacity: 100%;
+  }
+  .gmaillogo.active,
+.gmaillogo:hover {
+  opacity: 100%;
+  cursor: pointer;
+}
+.back1{
+   position:absolute;
+   left: 0px;
+   top: 2100px; 
+   background-color: #C0C0C0;
+   z-index: 30;
+   width: 100%;
+   height: 280px;
+}
+ .info{
+    position: absolute;
+    top:2140px;
+    right: 27%;
+    z-index: 60;
+    font-size: 21px;
+  }
+  .fas{
+  position: absolute;
+ top:1098px;
+ right: 110px;
+ z-index: 60;
+ width: 500px;
+
+
+}
+.txt{
+   font-family: 'Serif', sans-serif;
+ color: #696969;
+  font-size: 5px;
+}
+.shavi{
+  color: black;
+  font-size: 18px;
+  position: absolute;
+  left: 26px;
+  top: -19px;
+
+ }
+ .fas1{
+position: absolute;
+ top:1133px;
+ right: 110px;  
+ z-index: 60;
+ width: 500px;}
+  .txt1{
+   font-family: 'Serif', sans-serif;
+ color: #696969;
+  font-size: 18px;
+  position: absolute;
+  right:350px;
+  top: 1084px;
+  z-index: 120;
+
+ }
+ .fas2{
+  position: absolute;
+  top:568px;
+ right: 110px;
+ z-index: 60;
+ width: 500px;
+}
+.shavi1{
+  color: black;
+  font-size: 18px;
+  position: absolute;
+  left: 26px;
+  top: -18px;
+
+ }
+ 
+ 
+  .txt2 {
+   font-family: 'Serif', sans-serif;
+ color: #696969;
+  font-size: 18px;
+  position: absolute;
+  right:210px;
+  top: 1097px;
+  z-index: 120;
+}
+a:hover{
+  color: black;
+}
+.fas2{
+  position: absolute;
+  top:1168px;
+ }
+ .fblogo2{position: absolute;
+top:2298px;
+right:700px ;
+z-index: 60;
+}
+.shavi2{
+  position: absolute;
+  z-index: 60;
+  top: 2283px;
+  right: 598px;
+  color: black;
+  font-size: 18px;
+
+
+}
+.txt3{
+   font-family: 'Serif', sans-serif;
+  position: absolute;
+  top:2297px;
+  right: 366px;
+  z-index: 60;
+  font-size: 18px;
+  color:#696969 ;
+  
+  
+ }
+
+.xazi1{
+  width: 300px;
+  border-style:dashed;
+  color:#696969 ;
+  z-index: 60;
+  position: absolute;
+  top:2180px ;
+  right: 400px;
+
+}
+p::hover{
+    color:black;
+
+}
+p{
+    color:black;
+    cursor:default;
+}

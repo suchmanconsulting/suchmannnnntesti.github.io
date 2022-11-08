@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			Suchman Consulting
+		</title>
+		<link rel="stylesheet" href="botnav.css">
+	</head>
+	<body>
+		      <nav class="nav">
+     	
+       <div class="container">
+         <img src="logo_htmlis.png.png"><a href="index.html"</a></h1>
+         <ul>
+           <li><a href="index.html" class="current">Home</a></li>
+           <li><a href="services.html">About</a></li>
+           <li><a href="aboutus.html">Services</a></li>
+           <li><a href="contact">Contact</a></li>
+           
+         </ul>
+       </div>
+     </nav>
+     <nav class="nav1">
+     	
+     		
+     	<img src="logonotext.png" class="logo" alt="Alps">
+     		<ul>
+     			<div class="container1">
+     				<div class="line" >
+     					</div>
+     			<li><a  href="index.html"> <P class="botnav"> Home  </a></li></P>
+     			<li><a  href="services.html"><P class="botnav" >About </a></li></P>
+     			<li><a  href="aboutus.html"><P class="botnav" >Services</a></li></P>
+     			<li><a  href="contact.html"> <P class="botnav"> Contact </a></li></P>
+     </div>
+     			<nav class="container2">
+     			<div class="line1" >
+     					
+     			<li><a  href="ser1.html"> <P class="botnav1"> geophysics  </a></li></P>
+     			<li><a  href="services.html"><P class="botnav1" >geoarcheology </a></li></P>
+     			<li><a  href="aboutus.html"><P class="botnav1" >_blank</a></li></P>
+     			<li><a  href="contact.html"> <P class="botnav1"> _blank </a></li></P>
+     </div>
+     			
+     		
+     		</nav>
+     		
+     			<img src="facebook.png" class="fblogo" alt="Alps">
+     			<img src="gmaillogo.png" class="gmaillogo" alt="Alps">
+     		</ul>
+     	</nav>
+     	
+     		
+     			
+     		
+     	
+     	
+     </nav>

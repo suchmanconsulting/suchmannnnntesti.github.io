@@ -1,0 +1,635 @@
+
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiEyp8kv8JHgFVrJJbecmNE.woff2) format('woff2');
+  unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+}
+*{
+   font-family: 'Serif', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+   text-decoration: none;
+  
+  color: #C0C0C0;
+  
+  background-color: #FAF9F6;
+
+}
+html {background-color: #FAF9F6}
+
+.container {
+  
+   20px 10px 10px 10px rgba(1, 1, 1, 0.3)
+   z-index:12;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 120px;
+  z-index: 10000;
+}
+
+.nav {z-index: 10000;
+   font-family: 'Serif', sans-serif;
+   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+   opacity:100%;
+   z-index:61;
+  position: fixed;
+  background-color: white;
+  top: 0;
+  left: 0;
+  right: 0;
+  transition: all .3s ease-in-out;
+  transition-duration: 1s;
+}
+.usa{
+   max-width: 10%;
+   height: auto;
+   position: relative;
+   left: 10px;
+   top: 5px;
+  
+   opacity: 70%;
+   border-radius: 10px;
+   z-index: 200;
+}
+.usa:hover{
+   opacity: 100%;
+}
+
+.nav .container { 
+   
+   
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 5px;
+  transition: all .3s ease-in-out;
+  z-index:1000;
+}
+
+.nav ul {
+   
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  justify-content: center;
+}
+header.sticky{
+   padding: 5px 100px;
+   background: black;
+
+}
+
+.nav a {20px 10px 10px 10px rgba(1, 1, 1, 0.3)
+   text-decoration: none;
+  color: black;
+  text-decoration: none;
+  padding: 12px 15px;
+  transition: all .3s ease-in-out;
+}
+.dropbtn {
+  background-color: transparent;
+  color: black;
+  padding: 0px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 15px 0px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #DCDCDC;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {color: blue;}
+
+.nav.active {
+   
+  background-color:  #A9A9A9;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+ 
+}
+
+.nav.active a  {text-decoration: none;
+  color: white;
+  
+
+}
+.active dropbtn {
+   color: white;
+}
+.nav.active .container {
+  padding: 0px 0;
+  20px 10px 10px 10px rgba(1, 1, 1, 0.3)
+  
+}
+.nav a {
+  font-family: sans-serif;
+}
+
+.nav a:hover {
+   
+color: blue;
+    
+  
+}
+}
+
+ }
+      body {
+         font-family: Verdana, sans-serif; margin:0}
+      {box-sizing: border-box}
+      .mySlides {display: none}
+      
+      /* Slideshow container */
+      .slideshow-container {
+         width: 100%;
+         height: 60vh;
+         position: absolute;
+         top: 120px;
+         
+      }
+     
+      
+      .img1{
+         width: 100%;
+         }
+         /* From uiverse.io by @NorthFishHasNa */
+         .but1{
+            position: absolute;
+            left: 800px;
+            top: 0px;
+         }
+.button1 {
+   position: absolute;
+   top: 500px;
+ display: inline-block;
+ border-radius: 8px;
+ background-color: #4169E1;
+ border: none;
+ 
+ color: #FFFFFF;
+ font-size: 17px;
+ text-align: center;
+ padding: 16px;
+ width: 140px;
+ height: 60px;
+ 
+ transition: all 0.5s;
+ cursor: pointer;
+ margin: 5px;
+ transition-duration: 500ms;
+}
+.button1:hover{
+   background-color: blue;
+   
+}
+
+
+.satauri1{
+   font-family:"Verdana", sans-serif;
+   position:absolute;
+   top:210px;
+   left:41%;
+   
+   color:black;
+   font-size:23px;
+   border-bottom: 3px solid blue;
+padding-bottom: 7px;
+max-width:209%;
+text-decoration: none;
+ }
+ p
+ {font-family: "BPG Nateli", sans-serif;
+ }
+   .tex1{
+   position: absolute;
+   top: 350px;
+   left: 200px;
+   width: 600px;
+   
+   font-size: 20px;
+}
+
+   
+.tex2{
+   position: absolute;
+   top: 470px;
+   left: 200px;
+   width: 600px;
+   
+   font-size: 20px;
+}
+.tex3{
+      position: absolute;
+   top: 560px;
+   left: 200px;
+   width: 600px;
+ 
+   font-size: 20px;
+}
+.tex4{
+      position: absolute;
+   top: 660px;
+   left: 200px;
+   width: 600px;
+  
+   font-size: 20px;
+}
+.tex5{
+      position: absolute;
+   top: 790px;
+   left: 200px;
+   width: 600px;
+  
+   font-size: 20px;
+}
+.tex6{
+      position: absolute;
+   top: 1000px;
+   left: 200px;
+   width: 600px;
+   
+   font-size: 20px;
+}
+.tex7{
+      position: absolute;
+   top: 1150px;
+   left: 200px;
+   width: 600px;
+ 
+   font-size: 20px;
+}
+.tex8{
+      position: absolute;
+   top: 1220px;
+   left: 200px;
+   width: 600px;
+   
+   font-size: 20px;
+}
+.tex9{
+      position: absolute;
+   top: 1340px;
+   left: 200px;
+   width: 600px;
+   
+   font-size: 20px;
+}
+.tex10{
+      position: absolute;
+   top: 1450px;
+   left: 200px;
+   width: 600px;
+  
+   font-size: 20px;
+}
+.tex11{
+      position: absolute;
+   top: 1540px;
+   left: 200px;
+   width: 600px;
+  
+   font-size: 20px;
+}
+.tex12{
+      position: absolute;
+   top: 1630px;
+   left: 200px;
+   width: 600px;
+  
+   font-size: 20px;
+}/* From uiverse.io by @SharpTH */
+.card {
+   position: absolute;
+   top: 350px;
+   right: 10%;
+ cursor: pointer;
+ width: 490px;
+ height: 400px;
+ background: rgb(255, 255, 255);
+ border-radius: 5px;
+ 
+ transition: all .2s;
+ pointer
+}
+
+.card:hover {
+ box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.opt1{
+   width: 100%;
+   height: 100px;
+   border: 0.5px solid grey;
+   cursor: pointer;
+   font-size: 20px;
+   background-color: white;
+
+}
+.opt2{
+   width: 100%;
+   height: 100px;
+   border: 0.5px solid grey;
+cursor: pointer;
+font-size: 20px;
+background-color: white;
+}
+.opt3{
+   width: 100%;
+   height: 100px;
+   border: 0.5px solid grey;
+cursor: pointer;
+font-size: 20px;
+background-color: white;
+}
+
+
+.opt4{
+   width: 100%;
+   height: 100px;
+   border: 0.5px solid grey;
+cursor: pointer;
+font-size: 20px;
+background-color: white;
+}
+.button.hover{
+   cursor: pointer;
+}
+.opt1:hover{
+   transition-duration:0.8s ;
+opacity: 95%;
+background-color: grey;
+}
+.opt2:hover{
+   transition-duration:0.8s ;
+opacity: 95%;
+background-color: grey;
+}
+.opt3:hover{
+   transition-duration:0.8s ;
+opacity: 95%;
+background-color: grey;
+}
+.opt4:hover{
+   transition-duration:0.8s ;
+opacity: 95%;
+background-color: grey;
+}
+.fot01{
+   position: absolute;
+
+   right: 10%;
+   top: 900px;
+   width: 490px;
+}
+
+.fot02{
+      position: absolute;
+
+   right: 10%;
+   top: 1400px;
+   width: 490px;
+
+}
+.moreinfo{
+   
+   position: absolute;
+   font-size: 20px;
+   left: 20%;
+   top: 1850px;
+   width: 1200px;
+
+}
+.line3{
+   position: absolute;
+   top: 1780px;
+   width: 1600px;
+   left: 5%;
+   border-top:  1px dashed grey ;
+}
+
+
+.btn {
+   position: absolute;
+   top: 1950px;
+   left: 45%;
+  background-color: #4682B4;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 5px;
+  transition-duration: 0.6s;
+  user-select: none;
+}
+
+.btn:hover {
+  background-color: blue;
+}
+.back2{
+    position:absolute;
+  top: 2040px; 
+  background-color: #696969;
+  z-index: 30;
+  width: 100%;
+  height: 60px;
+  z-index: 100;
+  left: 0px;
+
+  }
+  .fblogo{
+  position: absolute;
+  right: 48%;
+  top: 2050px;
+  width: 40px;
+  z-index: 45;
+  opacity: 60%;z-index: 102;
+}
+.gmaillogo{
+  position: absolute;
+  right: 52%;
+  top: 2050px;
+  width: 40px;
+  z-index: 45;
+  opacity: 60%;
+  z-index: 102;
+}
+.fblogo.active,
+.fblogo:hover {
+cursor: pointer;
+  opacity: 100%;
+  }
+  .gmaillogo.active,
+.gmaillogo:hover {
+  opacity: 100%;
+  cursor: pointer;
+}
+.back1{
+   position:absolute;
+   left: 0px;
+   top: 2100px; 
+   background-color: #C0C0C0;
+   z-index: 30;
+   width: 100%;
+   height: 280px;
+}
+ .info{
+    position: absolute;
+    top:2140px;
+    right: 27%;
+    z-index: 60;
+    font-size: 21px;
+  }
+  .fas{
+  position: absolute;
+ top:1098px;
+ right: 110px;
+ z-index: 60;
+ width: 500px;
+
+
+}
+.txt{
+   font-family: 'Serif', sans-serif;
+ color: #696969;
+  font-size: 5px;
+}
+.shavi{
+  color: black;
+  font-size: 18px;
+  position: absolute;
+  left: 26px;
+  top: -19px;
+
+ }
+ .fas1{
+position: absolute;
+ top:1133px;
+ right: 110px;  
+ z-index: 60;
+ width: 500px;}
+  .txt1{
+   font-family: 'Serif', sans-serif;
+ color: #696969;
+  font-size: 18px;
+  position: absolute;
+  right:350px;
+  top: 1084px;
+  z-index: 120;
+
+ }
+ .fas2{
+  position: absolute;
+  top:568px;
+ right: 110px;
+ z-index: 60;
+ width: 500px;
+}
+.shavi1{
+  color: black;
+  font-size: 18px;
+  position: absolute;
+  left: 26px;
+  top: -18px;
+
+ }
+ 
+ 
+  .txt2 {
+   font-family: 'Serif', sans-serif;
+ color: #696969;
+  font-size: 18px;
+  position: absolute;
+  right:210px;
+  top: 1097px;
+  z-index: 120;
+}
+a:hover{
+  color: black;
+}
+.fas2{
+  position: absolute;
+  top:1168px;
+ }
+ .fblogo2{position: absolute;
+top:2298px;
+right:700px ;
+z-index: 60;
+}
+.shavi2{
+  position: absolute;
+  z-index: 60;
+  top: 2283px;
+  right: 598px;
+  color: black;
+  font-size: 18px;
+
+
+}
+.txt3{
+   font-family: 'Serif', sans-serif;
+  position: absolute;
+  top:2297px;
+  right: 366px;
+  z-index: 60;
+  font-size: 18px;
+  color:#696969 ;
+  
+  
+ }
+
+.xazi1{
+  width: 300px;
+  border-style:dashed;
+  color:#696969 ;
+  z-index: 60;
+  position: absolute;
+  top:2180px ;
+  right: 400px;
+
+}
+
+
+
+
+
+
+
+
+

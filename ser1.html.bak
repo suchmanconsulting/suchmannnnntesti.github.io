@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			Suchman Consulting
+		</title>
+		<link rel="stylesheet" href="ser1.css">
+	</head>
+	<body>
+		      <nav class="nav">
+     	
+       <div class="container">
+         <img src="logo_htmlis.png.png"><a href="index.html"</a></h1>
+         <ul>
+           <li><a href="index.html" class="current">Home</a></li>
+           <li><a href="services.html">About</a></li>
+           <li><a href="aboutus.html">Services</a></li>
+           <li><a href="contact">Contact</a></li>
+           
+         </ul>
+       </div>
+     </nav>
+     <div class="foni">  </div>
+     <img src="scan1.jpg" class="foto1" alt="Alps">
+      <img src="scan2.jpg" class="foto2" alt="Alps">
+       <img src="scan3.jpg" class="foto3" alt="Alps">
+       <p class ="satauri">
+       	Geophyisics Data
+       </p>
+              <p class ="satauri1">
+       	Geophyisical and Geotechnical studies
+       </p>
+             <p class ="texti2">
+       	Our geophysics team offers a full range of geophysical services to provide the best solution
+       	for your needs. Using our high-quality equipment and years of experience, we can precisely mark 
+       	the position and depth of various underground utilities, including gas, communications, and sewer lines
+       	as well as underground storage tanks and PVC pipes. Our team can provide a high-quality report within an 
+       	understandable time frame depending on the size of your project.
+       </p>
+       
+     </body>
+     

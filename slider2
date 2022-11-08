@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="slider1.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+   <title></title>
+</head>
+<body>
+<main>
+   
+  <div class="slides-container">
+    <div class="slides-inner">
+      <div class="slide">1</div>
+      <div class="slide">2</div>
+
+    </div>
+  </div>
+  
+  <div class="controls">
+    
+    <button id="prevButton" class="prev">❮</button>
+    <button id="nextButton" class="next">❯</button>
+  </div>
+  
+</main>

@@ -1,0 +1,54 @@
+ <!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			Suchman Consulting
+		</title>
+		<link rel="stylesheet" href="aboutus.css">
+	</head>
+	<body>
+		      <nav class="nav">
+     	
+       <div class="container">
+         <img src="logo_htmlis.png.png"><a href="index.html"</a></h1>
+         <ul>
+          <li><a href="index.html" class="current">Home</a></li>
+           <li><a href="services.html">About</a></li>
+           <div class="dropdown">
+         <a href="aboutus.html"> <button class="dropbtn">Services ︾</button></a>
+  <div class="dropdown-content">
+    <a href="ser1.html">Geophyisics</a>
+    <a href="ser2.html">Geoarcheology </a>
+    <a href="#">Link 3</a>
+  </div>
+</div>
+<li><a href="contactform1.html">Contact</a></li>
+           
+        
+           
+         </ul>
+       </div>
+     </nav>
+     <div
+    	class="square";>
+    </div>
+     
+      
+   <div class="container2">
+      <h1>Our Services</h1>
+            <a href="ser1.html"> 
+      <div class="row">
+        <div class="service">
+        	<h2>Geophysics</h2>
+      </div> 
+      <div class="service2">
+        	<h2>geoarcheology</h2>
+        	</div>
+        	  <div class="service3">
+        	<h2>_blank_</h2>
+        	</div>
+    </div>
+   
+  
+	</body>
+</html>

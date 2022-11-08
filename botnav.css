@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+	background-color: #FAF9F6;
+	
+	
+  font-family: 'Serif', sans-serif;
+  color: #222;
+  padding-bottom: 20px;
+max-width:100%;
+}
+
+.container {
+	z-index:12;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.nav { box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+	opacity:100%;
+	z-index:11;
+  position: fixed;
+  background-color: white;
+  top: 0;
+  left: 0;
+  right: 0;
+  transition: all .3s ease-in-out;
+}
+
+.nav .container {
+	
+	
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+  transition: all .3s ease-in-out;
+  z-index:10;
+}
+
+.nav ul {
+	
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav a {
+	text-decoration: none;
+  color: black;
+  text-decoration: none;
+  padding: 12px 15px;
+  transition: all .3s ease-in-out;
+}
+
+.nav.active {
+	opacity:95%;
+  background-color: #fff;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+.nav:active a {
+  color: blue;
+  
+
+}
+.nav:active .container {
+  padding: 0px 0;
+  
+}
+
+.nav a.active,
+.nav a:hover {
+	
+color: blue;}
+
+.nav1 {box-shadow:20px 10px 20px 20px rgba(0, 0, 0, 0.3);
+	opacity:100%;
+	z-index:11;
+    overflow: hidden;
+  position: absolute;
+  top:1080px;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  
+  height:220px;
+  font-family: 'Serif', sans-serif;
+  right: 0;
+  
+}
+.nav1 a{
+	text-decoration:none;
+	color:black;
+	font-size: 16px;
+	position:relative;
+	left:850px;
+	bottom:40px;
+	font-family: 'Serif', sans-serif;
+	 
+	
+	
+	
+	
+}
+
+
+
+.botnav{
+	padding:8px;
+		align-items:center;
+	
+	
+	
+}
+
+	
+	
+	
+
+
+
+.botnav a:hover{
+	color:blue;
+}
+.botnav1 a:hover{
+	color:blue;
+}
+.logo{
+	position:relative;
+	top:40px;
+	left:250px;
+	 
+	  
+}
+
+ .line{
+ 	position:absolute;
+ 	  border-left: 1px solid black;
+  height: 160px;
+  left:800px;
+  top:40px;
+ }
+ .fblogo{
+ 	width:30px;
+ 	position:relative;
+ 	bottom:70px;
+ 	left:260px;
+ 	
+ }
+ .gmaillogo{
+ 	width:30px;
+ 	position:relative;
+ 	bottom:70px;
+ 	left:270px;
+ 	
+ }
+ .line1{
+ 	 	position:absolute;
+ 	  border-left: 1px solid black;
+  height: 160px;
+  left:1100px;
+  top:790px;
+  z-index:25;
+  
+ 
+ }
+      		
+

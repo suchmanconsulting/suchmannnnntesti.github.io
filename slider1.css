@@ -1,0 +1,441 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+*{
+   font-family: 'Serif', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+   text-decoration: none;
+  
+  color: #C0C0C0;
+  
+  background-color: #C0C0C0;
+
+}
+
+.container {
+   user-select: none;
+
+  
+   20px 10px 10px 10px rgba(1, 1, 1, 0.3)
+   z-index:12;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 120px;
+}
+
+.nav {
+   user-select: none;
+
+   font-family: 'Serif', sans-serif;
+   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+   opacity:100%;
+   z-index:61;
+  position: fixed;
+  background-color: white;
+  top: 0;
+  left: 0;
+  right: 0;
+  transition: all .3s ease-in-out;
+  transition-duration: 1s;
+}
+span{
+   text-decoration: none  ;
+}
+.nav .container { 
+   
+   user-select: none;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 5px;
+  transition: all .3s ease-in-out;
+  z-index:10;
+}
+
+.nav ul {
+   
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  justify-content: center;
+}
+header.sticky{
+   padding: 5px 100px;
+   background: black;
+
+}
+.usa{
+   max-width: 10%;
+   height: auto;
+   position: relative;
+   left: 10px;
+   top: 5px;
+  
+   opacity: 70%;
+   border-radius: 10px;
+   z-index: 200;
+}
+.usa:hover{
+   opacity: 100%;
+}
+
+.nav a {20px 10px 10px 10px rgba(1, 1, 1, 0.3)
+   text-decoration: none;
+  color: black;
+  text-decoration: none;
+  padding: 12px 15px;
+  transition: all .3s ease-in-out;
+}
+.dropbtn {
+  background-color: white;
+  color: black;
+  padding: 0px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 15px 0px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #DCDCDC;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {color: blue;}
+
+.nav.active {
+   
+  background-color: #A9A9A9;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+ 
+}
+
+.nav.active a {text-decoration: none;
+  color: white;
+  
+
+}
+.nav.active .container {
+  padding: 0px 0;
+  20px 10px 10px 10px rgba(1, 1, 1, 0.3)
+  
+}
+.nav a {
+  font-family: sans-serif;
+}
+
+.nav a:hover {
+   
+color: blue;
+    
+  
+}
+}
+
+ }
+      body {
+         font-family: Verdana, sans-serif; margin:0}
+      {box-sizing: border-box}
+      .mySlides {display: none}
+      
+      /* Slideshow container */
+      .slideshow-container {
+         width: 100%;
+         height: 60vh;
+         position: absolute;
+         top: 120px;
+         
+      }
+     
+      
+      .img1{
+         width: 100%;
+         }
+         /* From uiverse.io by @NorthFishHasNa */
+         .but1{
+            position: absolute;
+            left: 800px;
+            top: 0px;
+         }
+.button1 {
+   position: absolute;
+   top: 500px;
+ display: inline-block;
+ border-radius: 8px;
+ background-color: #4169E1;
+ border: none;
+ 
+ color: #FFFFFF;
+ font-size: 17px;
+ text-align: center;
+ padding: 16px;
+ width: 140px;
+ height: 60px;
+ 
+ transition: all 0.5s;
+ cursor: pointer;
+ margin: 5px;
+ transition-duration: 500ms;
+ text-decoration: none;
+}
+.button1:hover{
+   background-color: blue;
+   
+}
+
+button span {
+ cursor: pointer;
+ display: inline-block;
+ position: relative;
+ transition: 0.5s;
+ color: white;
+}
+
+button span:after {
+ content: '»';
+ position: absolute;
+ opacity: 0;
+ top: 0;
+ right: -15px;
+ transition: 0.5s;
+}
+
+button:hover span {
+ padding-right: 15px;
+}
+
+button:hover span:after {
+ opacity: 1;
+ right: 0;
+}
+      .dot{
+         user-select: none;
+
+         position: absolute;
+         top: 500px;
+z-index: 10;
+      }
+
+      /* Next & previous buttons */
+      .prevbutton, .nextbutton {
+         cursor: pointer;
+         position: absolute;
+         top:65%;
+         width: auto;
+         padding: 16px;
+         margin-top: -22px;
+         color: white;
+         font-weight: bold;
+         font-size: 18px;
+         transition: 0.6s ;
+         border-radius: 0 3px 3px 0;
+         user-select: none;
+         z-index: 30;
+      }
+      /* Position the "next button" to the right */
+
+      .next {
+         right: 0;
+         border-radius: 3px 0 0 3px;
+      }
+      /* On hover, add a black background color with a little bit seethrough */
+      .prev:hover, .next:hover {
+         background-color: rgba(0,0,0,0.8);
+      }
+      /* Caption text */
+      .text2 {
+            font-family:"American Typewriter", serif;
+   color:#F0F8FF;
+   font-size:40px;
+   
+   height:100px;
+   width:600px;
+   position:absolute;
+left:35%;
+top:250px;
+z-index:2;
+display: i;
+}
+      
+      /* Number text (1/3 etc) */
+      .numbertext {
+         color: #f2f2f2;
+         font-size: 12px;
+         padding: 8px 12px;
+         position: absolute;
+         top: 0;
+      }
+      /* The dots/bullets/indicators */
+      .dot {
+         z-index: 40;
+         cursor: pointer;
+         height: 15px;
+         width: 15px;
+         margin: 0 2px;
+        position: relative;
+        top: 850px;
+        right: 50px;
+         background-color: #bbb;
+         border-radius: 50%;
+         display: inline-block;
+         transition: background-color 0.6s ease;
+         user-select: none;
+
+      }
+      .active, .dot:hover {
+         background-color: #717171;
+      }
+      .back2{
+         background-color: #f7f7f7;
+         position: absolute;
+         top: 920px;
+         height: 300px;
+         width: 100%;
+        
+         z-index: 15;
+      }
+      .logoo{ position: absolute;
+         top: 830px;
+         left: 320px;
+         z-index: 30;
+         width: 580px;
+       }
+       .about1{
+         position: absolute;
+         top: 960px;
+         right: 50%;
+         z-index: 30;
+         font-size: 25px;
+          font-family: "Lucida Console", "Courier New", monospace;
+          color: #000080;
+
+       }
+       .line6{
+         position: absolute;
+         top:  1000px;
+         right: 44%;
+         width: 350px;
+         border: 1px dashed grey;
+         z-index: 60;
+
+       }
+
+       
+       .texti3{
+         position: absolute;
+         top: 1040px;
+         right: 25%;
+         color: navy;
+         z-index: 30;
+         max-width: 500px;
+       }
+       /* From uiverse.io by @alexruix */
+.card {
+   background: url('faravan.jpg');
+   opacity: 90%;
+ width: 390px;
+ height: 354px;
+ border-radius: 10px;
+ 
+ position: relative;
+ padding: 1.8rem;
+ border: 2px solid #c3c6ce;
+ transition: 0.5s ease-out;
+ overflow: visible;
+ position: absolute;
+ top: 1400px;
+ left: 15%;
+ cursor: pointer;
+
+}
+.card:hover{
+
+}
+
+.card-details {
+ color: black;
+ height: 100%;
+ gap: .5em;
+ display: grid;
+ place-content: center;
+}
+
+.card-button {
+ transform: translate(-50%, 125%);
+ width: 60%;
+ border-radius: 1rem;
+ border: none;
+ background-color: #008bf8;
+ color: #fff;
+ font-size: 1rem;
+ padding: .5rem 1rem;
+ position: absolute;
+ left: 50%;
+ bottom: 0;
+ opacity: 0;
+ transition: 0.3s ease-out;
+}
+
+.text-body {
+ color: rgb(134, 134, 134);
+}
+
+/*Text*/
+.text-title {
+ font-size: 1em;
+ font-weight: bold;
+ color: black;
+ position: absolute;
+}
+
+/*Hover*/
+.card:hover {
+ border-color: #008bf8;
+ box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
+}
+
+.card:hover .card-button {
+ transform: translate(-50%, 50%);
+ opacity: 1;
+}
+.projects{
+   z-index: 10;
+   width: 300px;
+   position: absolute;
+   top: 1300px;
+   left: 40%;
+   color: navy;
+   font-size: 35px;
+
+}
